@@ -1,6 +1,6 @@
 // components/layout/footer.tsx
 import Link from "next/link";
-import { Package, Phone, Mail, MapPin, Facebook, Linkedin, Instagram } from "lucide-react";
+import { Package, Phone, Mail, MapPin } from "lucide-react";
 
 export function Footer() {
     const currentYear = new Date().getFullYear();
@@ -22,17 +22,6 @@ export function Footer() {
                             Leading manufacturer of premium HDPE bottles, jars, and containers.
                             Serving the Agro-chemical, Pharmaceutical, and FMCG industries since 2011.
                         </p>
-                        <div className="flex gap-4 pt-2">
-                            <Link href="#" className="hover:text-white transition-colors" aria-label="Facebook">
-                                <Facebook className="h-5 w-5" />
-                            </Link>
-                            <Link href="#" className="hover:text-white transition-colors" aria-label="LinkedIn">
-                                <Linkedin className="h-5 w-5" />
-                            </Link>
-                            <Link href="#" className="hover:text-white transition-colors" aria-label="Instagram">
-                                <Instagram className="h-5 w-5" />
-                            </Link>
-                        </div>
                     </div>
 
                     {/* Column 2: Navigation */}
@@ -59,17 +48,17 @@ export function Footer() {
                         <h3 className="text-white font-semibold text-lg mb-4">Our Products</h3>
                         <ul className="space-y-3 text-sm">
                             <li>
-                                <Link href="/products?category=Agro" className="hover:text-blue-400 transition-colors">
+                                <Link href="/products?category=Bottle" className="hover:text-blue-400 transition-colors">
                                     Bottles
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/products?category=Pharma" className="hover:text-blue-400 transition-colors">
+                                <Link href="/products?category=HDPE Jar/Box" className="hover:text-blue-400 transition-colors">
                                     HDPE Jars/Box
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/products?category=Cosmetic" className="hover:text-blue-400 transition-colors">
+                                <Link href="/products?category=PET" className="hover:text-blue-400 transition-colors">
                                     PET
                                 </Link>
                             </li>
