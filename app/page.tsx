@@ -74,7 +74,7 @@ export default function Home() {
                   <div className={`relative h-[500px] md:h-[600px] w-full ${banner.color} flex items-center`}>
 
                     {/* Background Image Placeholder - Replace with <Image> */}
-                    <Image src={`/banner-${banner.id}.jpg`} alt={banner.title} fill className="aspect-9/16object-cover opacity-50" />
+                    <Image src={`/agri-science/banner-${banner.id}.jpg`} alt={banner.title} fill className="aspect-9/16object-cover opacity-50" />
                     <div className="absolute inset-0 bg-black/10" /> {/* Overlay for text readability */}
 
                     <div className="container mx-atuo relative z-10 px-4 md:px-6">
