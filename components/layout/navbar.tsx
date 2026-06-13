@@ -18,7 +18,7 @@ export function Navbar() {
                 <div className="flex items-center gap-2">
                     <Link href="/" className="flex items-center gap-2 font-bold text-xl text-blue-900">
                         <Image
-                            src="/logo-amba.png"
+                            src="/agri-science/logo-amba.png"
                             width={300}
                             height={300}
                             alt="Amba Plastolite"
