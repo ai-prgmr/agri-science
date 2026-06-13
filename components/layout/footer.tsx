@@ -19,8 +19,8 @@ export function Footer() {
                             <span>Amba Plastolite</span>
                         </div>
                         <p className="text-slate-400 text-sm leading-relaxed">
-                            Leading manufacturer of premium HDPE bottles, jars, and containers.
-                            Serving the Agro-chemical, Pharmaceutical, and FMCG industries since 2011.
+                            Specializing in Agro-chemical & Pesticide packaging solutions since 2011.
+                            Trusted by leading manufacturers across India for high-durability and chemical-resistant HDPE containers.
                         </p>
                     </div>
 

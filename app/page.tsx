@@ -1,8 +1,6 @@
-'use client';
 import Link from "next/link";
 import {
   ArrowRight,
-  CheckCircle2,
   Settings,
   Truck,
   ShieldCheck,
@@ -11,36 +9,35 @@ import {
   Factory,
   ClipboardList
 } from "lucide-react";
-import Image from "next/image";
-import * as React from "react";
-import Autoplay from "embla-carousel-autoplay";
+import { Metadata } from "next";
+
 // Components
 import { Button } from "@/components/ui/button";
 import { ProductCard } from "@/components/products/product-card";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
-import { IndustryGrid } from "@/components/home/industry-grid";
+import { AgroMasterySection } from "@/components/home/agro-mastery";
+import { HeroCarousel } from "@/components/home/hero-carousel";
 
 // Data
 import { containers } from "@/lib/data";
 
+export const metadata: Metadata = {
+  title: "Amba Plastolite | Premium HDPE Bottle & Jar Manufacturer Indore",
+  description: "Amba Plastolite is a leading manufacturer of premium chemical-resistant HDPE agro bottles, plastic jars, and jerry cans in Indore, India. 15+ years of Agro & Pesticides mastery.",
+  alternates: {
+    canonical: "/",
+  },
+};
+
 export default function Home() {
   // 1. Get Top 3-4 products for the showcase section
   const featuredContainers = containers.slice(0, 4);
-  const plugin = React.useRef(
-    Autoplay({ delay: 2000 })
-  );
-  // 2. Banner Data (Placeholder for your 4 images)
+
+  // 2. Banner Data
   const banners = [
     {
       id: 1,
-      title: "Precision HDPE Manufacturing",
-      subtitle: "High-grade packaging solutions for Pharmaceutical & Agro industries.",
+      title: "Mastery in Agro & Pesticides Packaging",
+      subtitle: "Over 15 years of precision manufacturing for high-grade chemical-resistant HDPE containers.",
       color: "bg-blue-900", // Fallback color if image fails
     },
     {
@@ -64,50 +61,9 @@ export default function Home() {
 
         {/* SECTION 1: HERO CAROUSEL */}
         <section className="relative w-full">
-          <Carousel plugins={[plugin.current]}
-            className="w-full"
-            onMouseEnter={plugin.current.stop}
-            onMouseLeave={plugin.current.reset} opts={{ loop: true }}>
-            <CarouselContent>
-              {banners.map((banner) => (
-                <CarouselItem key={banner.id}>
-                  <div className={`relative h-[500px] md:h-[600px] w-full ${banner.color} flex items-center`}>
-
-                    {/* Background Image Placeholder - Replace with <Image> */}
-                    <Image src={`/agri-science/banner-${banner.id}.jpg`} alt={banner.title} fill className="aspect-9/16object-cover opacity-50" />
-                    <div className="absolute inset-0 bg-black/10" /> {/* Overlay for text readability */}
-
-                    <div className="container mx-atuo relative z-10 px-4 md:px-6">
-                      <div className="max-w-2xl space-y-4 animate-in fade-in slide-in-from-bottom-4 duration-700">
-                        <div className="inline-block rounded-full bg-white/20 backdrop-blur-sm px-4 py-1 text-sm font-medium text-white">
-                          Since 2011
-                        </div>
-                        <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-white">
-                          {banner.title}
-                        </h1>
-                        <p className="text-lg md:text-xl text-slate-200">
-                          {banner.subtitle}
-                        </p>
-                        <div className="flex gap-4 pt-4">
-                          <Button asChild size="lg" className="bg-white text-blue-900 hover:bg-slate-100">
-                            <Link href="/products">View Catalog</Link>
-                          </Button>
-                          <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white/10 hover:text-white bg-transparent">
-                            <Link href="/contact">Contact Us</Link>
-                          </Button>
-                        </div>
-                      </div>
-                    </div>
-
-                  </div>
-                </CarouselItem>
-              ))}
-            </CarouselContent>
-            {/* Navigation Arrows (Hidden on mobile usually, distinct on desktop) */}
-            <CarouselPrevious className="left-4 bg-white/10 border-none text-white hover:bg-white/20" />
-            <CarouselNext className="right-4 bg-white/10 border-none text-white hover:bg-white/20" />
-          </Carousel>
+          <HeroCarousel banners={banners} />
         </section>
+
         {/* SECTION: STATS STRIP */}
         <section className="bg-blue-900 py-12 text-white border-b border-blue-800">
           <div className="container mx-auto px-4 md:px-6">
@@ -115,13 +71,13 @@ export default function Home() {
 
               {/* Stat 1 */}
               <div className="space-y-2">
-                <h3 className="text-4xl font-extrabold text-white">12+</h3>
+                <h3 className="text-4xl font-extrabold text-white">15+</h3>
                 <p className="text-blue-200 text-sm uppercase tracking-wider font-medium">Years Experience</p>
               </div>
 
               {/* Stat 2 */}
               <div className="space-y-2">
-                <h3 className="text-4xl font-extrabold text-white">50+</h3>
+                <h3 className="text-4xl font-extrabold text-white">250+</h3>
                 <p className="text-blue-200 text-sm uppercase tracking-wider font-medium">Clients Served</p>
               </div>
 
@@ -140,6 +96,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+
         {/* SECTION 2: CORE SERVICES / WHY CHOOSE US */}
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4 md:px-6">
@@ -188,8 +145,10 @@ export default function Home() {
             </div>
           </div>
         </section>
-        {/* Industry Grid */}
-        <IndustryGrid />
+
+        {/* Agro & Pesticides Mastery Section */}
+        <AgroMasterySection />
+
         {/* SECTION: HOW WE WORK (PROCESS) */}
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4 md:px-6">
@@ -268,6 +227,62 @@ export default function Home() {
               <Button asChild variant="outline" size="lg" className="w-full">
                 <Link href="/products">View All Products</Link>
               </Button>
+            </div>
+          </div>
+        </section>
+
+        {/* AEO/GEO FAQ SECTION */}
+        <section className="py-24 bg-white border-b border-slate-200">
+          <div className="container mx-auto px-4 md:px-6">
+            <div className="text-center max-w-2xl mx-auto mb-16 space-y-4">
+              <h2 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+                Frequently Asked Questions
+              </h2>
+              <p className="text-lg text-slate-600">
+                Direct, clear answers to common questions about our HDPE chemical packaging manufacturing, capacity, and logistics.
+              </p>
+            </div>
+
+            <div className="max-w-4xl mx-auto grid gap-6 md:grid-cols-2">
+              {/* Question 1 */}
+              <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100 shadow-sm space-y-3">
+                <h3 className="text-lg font-bold text-slate-950">
+                  What makes Amba Plastolite HDPE bottles safe for pesticides and agrochemicals?
+                </h3>
+                <p className="text-slate-600 text-sm leading-relaxed">
+                  Our containers are manufactured using 100% virgin high-density polyethylene (HDPE) with precision wall thickness control and optional fluorination or co-extruded barrier layers. This prevents paneling, container collapse, and chemical permeation, making them completely secure for active, volatile, and hazardous crop-protection chemicals.
+                </p>
+              </div>
+
+              {/* Question 2 */}
+              <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100 shadow-sm space-y-3">
+                <h3 className="text-lg font-bold text-slate-950">
+                  Do you offer custom mold design and branding for bottles and jars?
+                </h3>
+                <p className="text-slate-600 text-sm leading-relaxed">
+                  Yes. We have an in-house design and engineering team that creates custom precision molds tailored to your specific container capacity (from 50ml up to 5 Liters), custom branding, logo embossing, and specialized cap/neck configurations to ensure safe, spill-free pouring.
+                </p>
+              </div>
+
+              {/* Question 3 */}
+              <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100 shadow-sm space-y-3">
+                <h3 className="text-lg font-bold text-slate-950">
+                  How does Amba Plastolite handle high-volume seasonal spikes in packaging demand?
+                </h3>
+                <p className="text-slate-600 text-sm leading-relaxed">
+                  We operate fully automatic, high-capacity extrusion blow molding lines running in 24/7 cycles. This allows us to handle large-scale, abrupt seasonal demand spikes (common in the agriculture sector before monsoon cycles) and maintain an uninterrupted, agile supply.
+                </p>
+              </div>
+
+              {/* Question 4 */}
+              <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100 shadow-sm space-y-3">
+                <h3 className="text-lg font-bold text-slate-950">
+                  Where are your office and manufacturing unit located?
+                </h3>
+                <p className="text-slate-600 text-sm leading-relaxed">
+                  Our state-of-the-art manufacturing unit is situated at 128, Baradana Mandi, Palda Industrial Area, Indore, Madhya Pradesh (452001). Our corporate office is located at 71, Anand Nagar, Indore. We provide reliable shipping and logistics across India.
+                </p>
+              </div>
             </div>
           </div>
         </section>

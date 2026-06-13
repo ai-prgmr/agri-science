@@ -29,10 +29,16 @@ export function ProductCard({ product }: ProductCardProps) {
                     {product.category}
                 </Badge>
                 
-                {/* Industry Badge */}
-                <Badge className="absolute right-3 top-3 bg-blue-900 text-white shadow-sm hover:bg-blue-900 font-medium">
-                    {product.industry}
-                </Badge>
+                {/* Specialty Badge */}
+                {product.industry === "Agro" ? (
+                    <Badge className="absolute right-3 top-3 bg-green-700 hover:bg-green-700 text-white shadow-sm font-semibold border-none">
+                        Agro-Grade
+                    </Badge>
+                ) : (
+                    <Badge className="absolute right-3 top-3 bg-slate-800 hover:bg-slate-850 text-white shadow-sm font-medium border-none">
+                        Premium HDPE
+                    </Badge>
+                )}
             </div>
 
             <CardContent className="p-4">

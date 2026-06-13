@@ -1,6 +1,15 @@
-// app/contact/page.tsx
+import { Metadata } from "next";
 import { Card, CardContent } from "@/components/ui/card";
 import { MapPin, Phone, Mail, Clock, Building2 } from "lucide-react";
+
+export const metadata: Metadata = {
+    title: "Contact Amba Plastolite | Corporate Office & Factory Indore",
+    description: "Get in touch with Amba Plastolite for custom quotes and consultations. Details, address, telephone, email, and Google maps for our Anand Nagar office and Palda factory.",
+    keywords: ["Contact Amba Plastolite", "Amba Plastolite address", "Amba Plastolite phone number", "HDPE bottle manufacturer Indore contact"],
+    alternates: {
+        canonical: "/contact",
+    },
+};
 
 export default function ContactPage() {
     return (

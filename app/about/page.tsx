@@ -1,4 +1,4 @@
-// app/about/page.tsx
+import { Metadata } from "next";
 import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -10,6 +10,15 @@ import {
     CheckCircle2,
     Factory
 } from "lucide-react";
+
+export const metadata: Metadata = {
+    title: "About Amba Plastolite | Leading HDPE Manufacturer in Indore",
+    description: "Amba Plastolite was founded in 2011 on the principles of quality, durability, and reliability. Meet our directors and explore our manufacturing journey.",
+    keywords: ["About Amba Plastolite", "Sandeep Patidar", "Sanjay Patidar", "plastic factory Indore", "HDPE container manufacturing history"],
+    alternates: {
+        canonical: "/about",
+    },
+};
 
 export default function AboutPage() {
     return (
@@ -166,7 +175,7 @@ export default function AboutPage() {
 
                         {/* Founder Card */}
                         <div className="group relative overflow-hidden rounded-2xl bg-slate-100">
-                            <div className="aspect-[4/3] bg-slate-200 relative">
+                            <div className="aspect-4/3 bg-slate-200 relative">
                                 <Image
                                     src="/sandeep-2.png"
                                     width={500}
@@ -187,7 +196,7 @@ export default function AboutPage() {
 
                         {/* President Card */}
                         <div className="group relative overflow-hidden rounded-2xl bg-slate-100">
-                            <div className="aspect-[4/3] bg-slate-200 relative">
+                            <div className="aspect-4/3 bg-slate-200 relative">
                                 <Image
                                     src="/sanjay-2.jpg"
                                     width={500}
