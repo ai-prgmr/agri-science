@@ -1,0 +1,458 @@
+# Amba Plastolite - Full Website Content & Product Catalog
+
+This document contains the full textual content and product catalog of Amba Plastolite, structured for indexing and query resolution by Large Language Models (LLMs) and Search Agents.
+
+---
+
+## 1. Company Overview & About Us
+
+Amba Plastolite is a leading manufacturer of premium, high-durability, and chemical-resistant packaging solutions based in Indore, India. Since 2011, we have been a strategic partner for the Agro-chemical, Pesticide, Pharmaceutical, and Cosmetic industries, supplying virgin HDPE (High-Density Polyethylene) bottles and jars across the country.
+
+### Foundational Principles
+- **Quality & Virgin HDPE:** We use 100% virgin High-Density Polyethylene to ensure zero contamination and maximum strength.
+- **Leak-Proof Assurance:** Heavy-duty caps, plug fits, and advanced threading to prevent pesticide and chemical leakage.
+- **Chemical Resistance:** Specially designed barrier containers (co-extrusion and fluorination options) for volatile bio-chemicals.
+- **UV Light Protection:** Black HDPE bottles and jars to prevent product degradation from sunlight.
+- **Custom Mold Design:** In-house capability to turn concept sketches into custom-molded physical bottles.
+
+### Board of Directors & Leadership
+- **Sandeep Patidar (Director of Production & Quality control):** Manages the manufacturing plant, ensuring that every batch meets rigorous strength, thickness, and finish parameters.
+- **Sanjay Patidar (Director of Client Relations & Logistics):** Oversees corporate partnerships, supply chain management, and seasonal bulk deliveries.
+
+### History & Quality Parameters
+Founded in 2011 on the principles of quality, durability, and reliability. We test all batches for:
+- Drop testing (high height drop durability)
+- Permeation testing (chemical barrier thickness checks)
+- Leakage and airtightness under vacuum
+- Dimension consistency and thread fitment
+
+---
+
+## 2. Corporate Office & Contact Details
+
+### Corporate Office
+- **Address:** 71, Anand Nagar, 2nd Floor, Indore (Madhya Pradesh) - 452001, India.
+- **Focus:** Consultations, custom molds design discussions, billing, and corporate administration.
+
+### Key Communication Channels
+- **Telephone:** +91 98260 68066
+- **Email:** ambaplasto@gmail.com
+- **Operating Hours:** Monday to Saturday, 9:00 AM to 7:00 PM.
+
+---
+
+## 3. Product Catalog Specifications
+
+Below is the complete range of manufactured HDPE bottles, jars, and PET containers:
+
+### 1. Amba 2 - Flair Regular
+- **ID:** amba-2
+- **Category:** Bottle
+- **Industry:** Agro
+- **Capacity:** 100ml - 1L
+- **Features:** Ergonomic Design, Leak Proof, Chemical Resistant
+- **Description:** Standard HDPE bottle for crop protection and fertilizer applications.
+- **Image URL:** /agri-science/images/Amba-2-Flair-Regular.jpg
+
+### 2. Amba 3 - Flair Regular (Black)
+- **ID:** amba-3
+- **Category:** Bottle
+- **Industry:** Agro
+- **Capacity:** 100ml - 1L
+- **Features:** UV Protection, Tamper Evident Cap, Chemical Resistant
+- **Description:** Black HDPE bottle offering excellent UV light protection for sensitive bio-chemicals.
+- **Image URL:** /agri-science/images/Amba-3-Flair-Regular-Black.jpg
+
+### 3. Amba 4 - Horizon
+- **ID:** amba-4
+- **Category:** Bottle
+- **Industry:** Cosmetic
+- **Capacity:** 200ml - 500ml
+- **Features:** Sleek Design, FMCG Grade, Dispenser Pump Ready
+- **Description:** Premium aesthetic bottle suitable for personal care, shampoo, and cosmetics.
+- **Image URL:** /agri-science/images/Amba-4-Horizon.jpg
+
+### 4. Amba 5 - Double Line
+- **ID:** amba-5
+- **Category:** Bottle
+- **Industry:** Agro
+- **Capacity:** 500ml - 1L
+- **Features:** Graduation Scale, Sturdy Ribbing, Leak Proof
+- **Description:** Heavy-duty agro-chemical bottle with double vertical lines for structural strength.
+- **Image URL:** /agri-science/images/Amba-5-Double-Line.jpg
+
+### 5. Amba 6 - Butterfly
+- **ID:** amba-6
+- **Category:** Bottle
+- **Industry:** Agro
+- **Capacity:** 1L
+- **Features:** Ergonomic Handle, Wide Mouth, Stable Base
+- **Description:** Distinctively shaped bottle with butterfly grip handle for effortless pouring.
+- **Image URL:** /agri-science/images/Amba-6-Butterfly.jpg
+
+### 6. Amba 7 - Bufro Missile
+- **ID:** amba-7
+- **Category:** Bottle
+- **Industry:** Agro
+- **Capacity:** 1L
+- **Features:** Impact Resistant, Secure Cap, Excellent Barrier
+- **Description:** Missile shape HDPE bottle designed for high-density liquids and chemicals.
+- **Image URL:** /agri-science/images/Amba-7-Bufro-Missile.jpg
+
+### 7. Amba 8 - Crown Chipko
+- **ID:** amba-8
+- **Category:** Bottle
+- **Industry:** Agro
+- **Capacity:** 250ml - 1L
+- **Features:** Unique Neck Profile, Non-slip Grip, Airtight Seal
+- **Description:** Specially designed for sticky liquids, surfactants, and crop nutrients.
+- **Image URL:** /agri-science/images/Amba-8-Crown-Chipko.jpg
+
+### 8. Amba 9 - Mono
+- **ID:** amba-9
+- **Category:** Bottle
+- **Industry:** Agro
+- **Capacity:** 100ml - 500ml
+- **Features:** Compact, Fluorinated Barrier, Lightweight
+- **Description:** Single-neck HDPE bottle for concentrated pesticides and plant regulators.
+- **Image URL:** /agri-science/images/Amba-9-Mono.jpg
+
+### 9. Amba 11 - Power
+- **ID:** amba-11
+- **Category:** Bottle
+- **Industry:** Agro
+- **Capacity:** 1L
+- **Features:** Robust Handle, Heavy Wall, Sturdy Base
+- **Description:** Industrial-grade bottle with a strong built-in handle for safe handling of chemicals.
+- **Image URL:** /agri-science/images/Amba-11-Power.jpg
+
+### 10. Amba 12 - Geetam Square
+- **ID:** amba-12
+- **Category:** Bottle
+- **Industry:** Agro
+- **Capacity:** 500ml - 1L
+- **Features:** Space Saving Square Shape, Heavy Duty, Easy Stacking
+- **Description:** Square profile bottle maximizing carton space utilization during transit.
+- **Image URL:** /agri-science/images/Amba-12-Geetam-Square.jpg
+
+### 11. Amba 13 - Vita
+- **ID:** amba-13
+- **Category:** Bottle
+- **Industry:** Pharma
+- **Capacity:** 200ml - 500ml
+- **Features:** Food Grade HDPE, Moisture Barrier, Child Resistant Cap Ready
+- **Description:** Cleanroom manufactured bottle for liquid syrups, healthcare tonics, and supplements.
+- **Image URL:** /agri-science/images/Amba-13-Vita.jpg
+
+### 12. Amba 14 - Pari
+- **ID:** amba-14
+- **Category:** Bottle
+- **Industry:** Cosmetic
+- **Capacity:** 100ml - 250ml
+- **Features:** Elegant Shape, Glossy Body, Screw Cap Compatible
+- **Description:** Graceful cosmetic container ideal for moisturizers, body washes, and lotions.
+- **Image URL:** /agri-science/images/Amba-14-Pari.jpg
+
+### 13. Amba 15 - Pari Pearl
+- **ID:** amba-15
+- **Category:** Bottle
+- **Industry:** Cosmetic
+- **Capacity:** 100ml - 250ml
+- **Features:** Pearlescent Finish, Aesthetic Cap, Custom Tinting
+- **Description:** Pearlescent finish cosmetic bottle that elevates retail shelf presence.
+- **Image URL:** /agri-science/images/Amba-15-Pari Pearl.jpg
+
+### 14. Amba 16 - Greta
+- **ID:** amba-16
+- **Category:** Bottle
+- **Industry:** Cosmetic
+- **Capacity:** 250ml - 500ml
+- **Features:** FMCG Grade, Smooth Surface, Recyclable
+- **Description:** Durable cosmetic bottle with a contemporary look, ideal for personal care brands.
+- **Image URL:** /agri-science/images/Amba-16-Greta.jpg
+
+### 15. Amba 17 - Greta Pearl
+- **ID:** amba-17
+- **Category:** Bottle
+- **Industry:** Cosmetic
+- **Capacity:** 250ml - 500ml
+- **Features:** Shimmering Pearl Effect, Premium Feel, Ergonomic Neck
+- **Description:** Stunning pearlized cosmetic bottle designed to add a premium touch to daily care products.
+- **Image URL:** /agri-science/images/Amba-17-Greta-Pearl.jpg
+
+### 16. Amba 18 - Proton
+- **ID:** amba-18
+- **Category:** Bottle
+- **Industry:** Agro
+- **Capacity:** 500ml - 1L
+- **Features:** Robust Wall Thickness, Secure Grip, Industrial Grade
+- **Description:** Premium agro bottle built to withstand high drop-test standards and chemical stress.
+- **Image URL:** /agri-science/images/Amba-18-Proton.jpg
+
+### 17. Amba 19 - Proton Dom
+- **ID:** amba-19
+- **Category:** Bottle
+- **Industry:** Agro
+- **Capacity:** 1L
+- **Features:** Dome Neck, Leak Proof Screw Cap, Durable Base
+- **Description:** Domed-shoulder variant of the Proton series offering superior liquid discharge.
+- **Image URL:** /agri-science/images/Amba-19-Proton-Dom.jpg
+
+### 18. Amba 20 - Cora
+- **ID:** amba-20
+- **Category:** Bottle
+- **Industry:** Cosmetic
+- **Capacity:** 200ml - 300ml
+- **Features:** Squeezable, Flip-top Cap Ready, Sleek
+- **Description:** Compact, easy-to-use squeezable bottle for creams, hand rubs, and hair conditioners.
+- **Image URL:** /agri-science/images/Amba-20-Cora.jpg
+
+### 19. Amba 21 - Speedo
+- **ID:** amba-21
+- **Category:** Bottle
+- **Industry:** Industrial
+- **Capacity:** 500ml - 1L
+- **Features:** Dynamic Styling, Anti-leak Cap, Industrial Strength
+- **Description:** Aesthetically styled bottle for automotive fluids, sprays, and general cleaning agents.
+- **Image URL:** /agri-science/images/Amba-21-Speedo.jpg
+
+### 20. Amba 22 - Mozo Can (Standard)
+- **ID:** amba-22
+- **Category:** PET
+- **Industry:** Industrial
+- **Capacity:** 1L - 5L
+- **Features:** Heavy Duty Can, Integrated Handle, Stackable
+- **Description:** High-strength mini jerry can for lubricants, chemicals, and industrial oils.
+- **Image URL:** /agri-science/images/Amba-22-Mozo-Can.jpg
+
+### 21. Amba 23 - Mozo Can (Ribbed)
+- **ID:** amba-23
+- **Category:** PET
+- **Industry:** Industrial
+- **Capacity:** 1L - 5L
+- **Features:** Ribbed Design, Anti-Collapse Walls, Integrated Handle
+- **Description:** Enhanced mini jerry can featuring side ribs to prevent collapse during extreme pressure changes.
+- **Image URL:** /agri-science/images/Amba-23-Mozo-Can.jpg
+
+### 22. Amba 24 - Singleneck
+- **ID:** amba-24
+- **Category:** Bottle
+- **Industry:** Agro
+- **Capacity:** 100ml - 1L
+- **Features:** Narrow Spout, Zero Spillage, High Chemical Resistance
+- **Description:** Precision narrow-neck HDPE bottle suited for highly active ingredients.
+- **Image URL:** /agri-science/images/Amba-24-Singleneck.jpg
+
+### 23. Amba 25 - Nova
+- **ID:** amba-25
+- **Category:** Bottle
+- **Industry:** Pharma
+- **Capacity:** 250ml - 500ml
+- **Features:** Food Grade, Airtight Seal, UV Resistant Option
+- **Description:** Pharma-grade round bottle engineered for liquid health products and vitamins.
+- **Image URL:** /agri-science/images/Amba-25-Nova.jpg
+
+### 24. Amba 26 - Met Set 200ml
+- **ID:** amba-26
+- **Category:** Bottle
+- **Industry:** Pharma
+- **Capacity:** 200ml
+- **Features:** Compact, Tamper Evident Cap, FDA Approved
+- **Description:** Specially approved container set for precise liquid dosage and syrups.
+- **Image URL:** /agri-science/images/Amba-26-Met-Set-200ml.jpg
+
+### 25. Amba 27 - Imiza Set
+- **ID:** amba-27
+- **Category:** HDPE Jar/Box
+- **Industry:** Cosmetic
+- **Capacity:** 50g - 200g
+- **Features:** Double Wall Look, Luxury Styling, Wide Mouth
+- **Description:** Premium jar collection for cosmetic face creams, scrubs, and gels.
+- **Image URL:** /agri-science/images/Amba-27-Imiza-Set.jpg
+
+### 26. Amba 28 - Glypho
+- **ID:** amba-28
+- **Category:** Bottle
+- **Industry:** Agro
+- **Capacity:** 1L
+- **Features:** Fluorinated Barrier, Measurement Indicator, Heavy Duty
+- **Description:** Co-extruded barrier bottle specifically designed to package strong herbicide and glyphosate solutions.
+- **Image URL:** /agri-science/images/Amba-28-Glypho.jpg
+
+### 27. Amba 29 - Threeline
+- **ID:** amba-29
+- **Category:** Bottle
+- **Industry:** Agro
+- **Capacity:** 500ml - 1L
+- **Features:** Triple Rib Support, Anti-slip Neck, Leakproof
+- **Description:** Three-ring neck detail for easy handling, commonly used for high-viscosity agricultural inputs.
+- **Image URL:** /agri-science/images/Amba-29-Threeline.jpg
+
+### 28. Amba 30 - Ema Box Flat
+- **ID:** amba-30
+- **Category:** HDPE Jar/Box
+- **Industry:** Pharma
+- **Capacity:** 250g - 500g
+- **Features:** Flat Lid, Airtight, Food Grade
+- **Description:** Square jar with flat cap ideal for storing dry powders, capsules, and health foods.
+- **Image URL:** /agri-science/images/Amba-30-Ema-Box-Flat.jpg
+
+### 29. Amba 31 - Ema Box New
+- **ID:** amba-31
+- **Category:** HDPE Jar/Box
+- **Industry:** Pharma
+- **Capacity:** 250g - 500g
+- **Features:** Enhanced Seal, Stackable Lid, Wide Mouth
+- **Description:** Updated design of the Ema series with an improved lock-in seal for freshness.
+- **Image URL:** /agri-science/images/Amba-31-Ema-Box-New.jpg
+
+### 30. Amba 32 - Ema Box Gold
+- **ID:** amba-32
+- **Category:** HDPE Jar/Box
+- **Industry:** Pharma
+- **Capacity:** 250g - 500g
+- **Features:** Metallic Gold Finish, Luxury Appeal, Food Grade
+- **Description:** Eye-catching metallic gold powder container, perfect for premium nutraceutical brands.
+- **Image URL:** /agri-science/images/Amba-32-Ema-Box-Gold.jpg
+
+### 31. Amba 33 - Humic Box
+- **ID:** amba-33
+- **Category:** HDPE Jar/Box
+- **Industry:** Agro
+- **Capacity:** 500g - 1kg
+- **Features:** Wide Mouth, Moisture Resistant, Heavy Duty
+- **Description:** Robust jar tailored for storing humic acid powders and granulated fertilizers.
+- **Image URL:** /agri-science/images/Amba-33-Humic-Box.jpg
+
+### 32. Amba 34 - Humic Box (Black)
+- **ID:** amba-34
+- **Category:** HDPE Jar/Box
+- **Industry:** Agro
+- **Capacity:** 500g - 1kg
+- **Features:** UV Protective Black, Moisture Resistant, Tamper Evident
+- **Description:** Black variant of the Humic box preventing degradation of photo-sensitive powder mixes.
+- **Image URL:** /agri-science/images/Amba-34-Humic-Box-Black.jpg
+
+### 33. Amba 35 - Humic Thaio Box
+- **ID:** amba-35
+- **Category:** HDPE Jar/Box
+- **Industry:** Agro
+- **Capacity:** 1kg
+- **Features:** Thick Wall, Secure Cap, Impact Proof
+- **Description:** Large capacity box engineered for high-volume pesticide or insecticide granules.
+- **Image URL:** /agri-science/images/Amba-35-Humic-Thaio-Box.jpg
+
+### 34. Amba 36 - Humic Box Bufro Dom
+- **ID:** amba-36
+- **Category:** HDPE Jar/Box
+- **Industry:** Agro
+- **Capacity:** 1kg
+- **Features:** Reinforced Domed Lid, Excellent Seal, Durable
+- **Description:** A high-durability box with a domed screw lid to hold dense soil conditioner powders.
+- **Image URL:** /agri-science/images/Amba-36-Humic-Box-Bufro-dom.jpg
+
+### 35. Amba 36A - Humic Thaio Box (Alt)
+- **ID:** amba-36a
+- **Category:** HDPE Jar/Box
+- **Industry:** Agro
+- **Capacity:** 1kg
+- **Features:** Interlocking Base, Moisture Guard, Custom Print Area
+- **Description:** Alternative design offering enhanced stack stability for warehouse storing.
+- **Image URL:** /agri-science/images/Amba-36A-Humic-Thaio-Box.jpg
+
+### 36. Amba 37 - Mercury Box
+- **ID:** amba-37
+- **Category:** HDPE Jar/Box
+- **Industry:** Agro
+- **Capacity:** 500g
+- **Features:** Secure Lock Cap, Heavy Duty, Industrial Grade
+- **Description:** Medium-sized agro jar for seed treatment powders and solid chemical mixtures.
+- **Image URL:** /agri-science/images/Amba-37-Mercury-Box.jpg
+
+### 37. Amba 38 - C-7 Flora
+- **ID:** amba-38
+- **Category:** Bottle
+- **Industry:** Agro
+- **Capacity:** 250ml - 500ml
+- **Features:** Ribbed Profile, Ergonomic Neck, Anti-drip
+- **Description:** Sleek, ribbed bottle design ideal for plant stimulants and foliar sprays.
+- **Image URL:** /agri-science/images/Amba-38-C-7-Flora.jpg
+
+### 38. Amba 39 - Cosmo Box
+- **ID:** amba-39
+- **Category:** HDPE Jar/Box
+- **Industry:** Cosmetic
+- **Capacity:** 100g - 250g
+- **Features:** Premium Styling, Smooth Lid Area, Scratch Resistant
+- **Description:** High-finish jar designed for cosmetic pastes, hair masks, and waxes.
+- **Image URL:** /agri-science/images/Amba-39-Cosmo-Box.jpg
+
+### 39. Amba 40 - Phyton
+- **ID:** amba-40
+- **Category:** Bottle
+- **Industry:** Agro
+- **Capacity:** 500ml - 1L
+- **Features:** High-impact HDPE, Tamper Evident Ring, Chemical Resistant
+- **Description:** High-durability bottle optimized for chemical fertilizers and pesticide liquids.
+- **Image URL:** /agri-science/images/Amba-40-Phyton.jpg
+
+### 40. Amba 41 - Protein Box
+- **ID:** amba-41
+- **Category:** HDPE Jar/Box
+- **Industry:** Pharma
+- **Capacity:** 500g - 2kg
+- **Features:** Wide Mouth, Comfort Grip Neck, Food Grade
+- **Description:** Large capacity protein powder jar with a wide mouth and ergonomic lid grip.
+- **Image URL:** /agri-science/images/Amba-41-Protein-Box.jpg
+
+### 41. Amba 42 - Special
+- **ID:** amba-42
+- **Category:** Bottle
+- **Industry:** Cosmetic
+- **Capacity:** 250ml
+- **Features:** Custom Embossing, Glossy Finish, Hand Sanitizer Ready
+- **Description:** Unique shape designed for custom hand washes, sanitizers, and specialty soaps.
+- **Image URL:** /agri-science/images/Amba-42-Special.jpg
+
+### 42. Amba 43 - Pharma Start
+- **ID:** amba-43
+- **Category:** HDPE Jar/Box
+- **Industry:** Pharma
+- **Capacity:** 100cc - 250cc
+- **Features:** USP Class VI Compliant, Child-Resistant Ready, Induction Seal Compatible
+- **Description:** Certified medical jar for pharmaceutical pills, tablets, and healthcare tablets.
+- **Image URL:** /agri-science/images/Amba-43-Pharma-Start.jpg
+
+### 43. Amba 44 - Pharma Capsule
+- **ID:** amba-44
+- **Category:** HDPE Jar/Box
+- **Industry:** Pharma
+- **Capacity:** 150cc - 300cc
+- **Features:** FDA Approved, Moisture Tight, Secured Cap
+- **Description:** Capsule jar offering state-of-the-art protection against humidity and air ingress.
+- **Image URL:** /agri-science/images/Amba-44-Pharma-Capsule.jpg
+
+### 44. Amba 45 - Cosmo Bottles Set
+- **ID:** amba-45
+- **Category:** Bottle
+- **Industry:** Cosmetic
+- **Capacity:** 100ml - 300ml
+- **Features:** Aesthetic Silhouette, Pump Compatible, Custom Coloring
+- **Description:** A set of high-end cosmetic bottles suitable for soaps, lotions, and skin care kits.
+- **Image URL:** /agri-science/images/Amba-45-Cosmo-Bottles.jpg
+
+### 45. Amba 46 - Syrup Bottles Collection
+- **ID:** amba-46
+- **Category:** PET
+- **Industry:** Pharma
+- **Capacity:** 60ml - 200ml
+- **Features:** Amber Appearance, Light Shielding, Food Grade PET
+- **Description:** A series of high-clarity amber PET bottles designed for liquid medicines and cough syrups.
+- **Image URL:** /agri-science/images/Amba-46-Syrup-Bottles.jpg
+
+---
+
+## 4. Key Performance Highlights & Testimonials
+- **24/7 Production Cycle:** Capable of maintaining uninterrupted runtimes to fulfill urgent agricultural season demands.
+- **100% Virgin HDPE:** Absolute structural integrity, preventing pesticide permeation.
+- **250+ Corporate Clients:** Serving pesticide and chemical formulators throughout Madhya Pradesh, Gujarat, Maharashtra, Rajasthan, and nationwide.

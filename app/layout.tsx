@@ -13,6 +13,11 @@ export const metadata: Metadata = {
   description: "Amba Plastolite is a leading manufacturer of premium chemical-resistant HDPE bottles, agro jars, and PET containers in Indore, India. Specializing in Agro-chemical & Pesticide packaging since 2011.",
   keywords: ["HDPE bottle manufacturer Indore", "agro chemical bottles", "pesticide packaging India", "HDPE jars manufacturer", "plastic bottle manufacturer Palda", "co-extrusion barrier bottles", "fluorinated HDPE bottles"],
   authors: [{ name: "Amba Plastolite" }],
+  icons: {
+    icon: "/agri-science/icon.png",
+    shortcut: "/agri-science/favicon.ico",
+    apple: "/agri-science/apple-touch-icon.png",
+  },
   openGraph: {
     title: "Amba Plastolite | HDPE Bottle & Jar Manufacturer in Indore",
     description: "Leading manufacturer of premium chemical-resistant HDPE bottles and agro jars in Indore, India. Specializing in Agro-chemical & Pesticide packaging since 2011.",
@@ -20,11 +25,26 @@ export const metadata: Metadata = {
     siteName: "Amba Plastolite",
     locale: "en_IN",
     type: "website",
+    images: [
+      {
+        url: "/logo-amba.png",
+        width: 1200,
+        height: 630,
+        alt: "Amba Plastolite - HDPE Bottle & Jar Manufacturer Indore",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Amba Plastolite | HDPE Bottle & Jar Manufacturer in Indore",
     description: "Leading manufacturer of premium chemical-resistant HDPE bottles and agro jars in Indore, India. Specializing in Agro-chemical & Pesticide packaging since 2011.",
+    images: ["/logo-amba.png"],
+  },
+  other: {
+    "geo.region": "IN-MP",
+    "geo.placename": "Indore",
+    "geo.position": "22.7056;75.8647",
+    "ICBM": "22.7056, 75.8647",
   },
 };
 
@@ -32,7 +52,7 @@ const jsonLdSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "Amba Plastolite",
-  "image": "https://www.ambaplastolite.com/agri-science/logo-amba.png",
+  "image": "https://www.ambaplastolite.com/logo-amba.png",
   "@id": "https://www.ambaplastolite.com/#organization",
   "url": "https://www.ambaplastolite.com",
   "telephone": "+919826068066",

@@ -78,10 +78,13 @@ export default function AboutPage() {
 
                         {/* Image/Stats Placeholder */}
                         <div className="relative">
-                            <div className="aspect-video rounded-2xl bg-slate-100 overflow-hidden border border-slate-200 shadow-xl flex items-center justify-center">
-                                {/* Replace with actual factory image */}
-                                <Factory className="h-16 w-16 text-slate-300" />
-                                <span className="sr-only">Factory Image</span>
+                            <div className="aspect-video rounded-2xl bg-slate-100 overflow-hidden border border-slate-200 shadow-xl relative">
+                                <Image
+                                    src="/agri-science/banner-2.jpg"
+                                    fill
+                                    className="object-cover"
+                                    alt="Amba Plastolite Custom Mold Design & Factory"
+                                />
                             </div>
                             {/* Floating Stat Card */}
                             <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg border border-slate-100 max-w-xs hidden md:block">
@@ -175,12 +178,13 @@ export default function AboutPage() {
 
                         {/* Founder Card */}
                         <div className="group relative overflow-hidden rounded-2xl bg-slate-100">
-                            <div className="aspect-4/3 bg-slate-200 relative">
+                            <div className="aspect-4/3 bg-slate-200 relative overflow-hidden">
                                 <Image
-                                    src="/sandeep-2.png"
+                                    src="/agri-science/sandeep-patidar.jpg"
                                     width={500}
-                                    height={300}
-                                    alt="Sandeep Patidar"
+                                    height={375}
+                                    className="object-cover"
+                                    alt="Mr. Sandeep Patidar"
                                 />
                             </div>
                             <div className="p-6 bg-white border border-t-0 border-slate-200 rounded-b-2xl">
@@ -196,12 +200,13 @@ export default function AboutPage() {
 
                         {/* President Card */}
                         <div className="group relative overflow-hidden rounded-2xl bg-slate-100">
-                            <div className="aspect-4/3 bg-slate-200 relative">
+                            <div className="aspect-4/3 bg-slate-200 relative overflow-hidden">
                                 <Image
-                                    src="/sanjay-2.jpg"
+                                    src="/agri-science/sanjay-patidar.jpg"
                                     width={500}
-                                    height={400}
-                                    alt="Sandeep Patidar"
+                                    height={375}
+                                    className="object-cover"
+                                    alt="Mr. Sanjay Patidar"
                                 />
                             </div>
                             <div className="p-6 bg-white border border-t-0 border-slate-200 rounded-b-2xl">

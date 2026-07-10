@@ -4,7 +4,7 @@ import { MapPin, Phone, Mail, Clock, Building2 } from "lucide-react";
 
 export const metadata: Metadata = {
     title: "Contact Amba Plastolite | Corporate Office & Factory Indore",
-    description: "Get in touch with Amba Plastolite for custom quotes and consultations. Details, address, telephone, email, and Google maps for our Anand Nagar office and Palda factory.",
+    description: "Get in touch with Amba Plastolite for custom quotes and consultations. Details, address, telephone, email, and Google maps for our Anand Nagar office.",
     keywords: ["Contact Amba Plastolite", "Amba Plastolite address", "Amba Plastolite phone number", "HDPE bottle manufacturer Indore contact"],
     alternates: {
         canonical: "/contact",
@@ -23,7 +23,7 @@ export default function ContactPage() {
                         Get in Touch
                     </h1>
                     <p className="text-lg text-slate-600">
-                        Visit our office for consultations or our factory for direct pickups and inspections.
+                        Visit our corporate office for consultations and business queries.
                     </p>
                 </div>
 
@@ -79,30 +79,30 @@ export default function ContactPage() {
                         </CardContent>
                     </Card>
 
-                    {/* Factory Info Card */}
+                    {/* Factory Address Card */}
                     <Card className="text-center hover:shadow-md transition-shadow">
                         <CardContent className="pt-6 flex flex-col items-center gap-4">
-                            <div className="h-12 w-12 rounded-full bg-slate-100 flex items-center justify-center text-slate-700">
+                            <div className="h-12 w-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-900">
                                 <Building2 className="h-6 w-6" />
                             </div>
                             <div>
                                 <h3 className="font-semibold text-lg text-slate-900 mb-2">Manufacturing Unit</h3>
                                 <p className="text-slate-600 text-sm leading-relaxed">
-                                    128, Baradana Mandi,<br />
-                                    Palda Industrial Area,<br />
+                                    128 Bardana Mandi<br />
+                                    Palda, Industrial Area<br />
                                     Indore (M.P) - 452001
                                 </p>
+                                <p className="text-red-800 font-semibold text-xs">No visitors please</p>
                             </div>
                         </CardContent>
                     </Card>
+
+
                 </div>
 
                 {/* Dual Maps Section */}
                 <div className="space-y-8">
                     <h2 className="text-2xl font-bold text-slate-900 text-center mb-8">Our Locations</h2>
-
-
-
                     {/* Map 1: Office */}
                     <div className="space-y-4">
                         <div className="flex items-center gap-2 text-blue-900 font-semibold text-lg">

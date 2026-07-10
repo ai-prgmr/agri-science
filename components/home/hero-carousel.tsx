@@ -40,7 +40,7 @@ export function HeroCarousel({ banners }: HeroCarouselProps) {
       opts={{ loop: true }}
     >
       <CarouselContent>
-        {banners.map((banner) => (
+        {banners.map((banner, index) => (
           <CarouselItem key={banner.id}>
             <div className={`relative h-[550px] md:h-[650px] w-full ${banner.color} flex items-center`}>
 
@@ -60,9 +60,15 @@ export function HeroCarousel({ banners }: HeroCarouselProps) {
                     <span className="h-2 w-2 rounded-full bg-green-400 animate-pulse" /> Since 2011 • ISO Standard Quality
                   </div>
 
-                  <h1 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tight text-white leading-[1.15]">
-                    {banner.title}
-                  </h1>
+                  {index === 0 ? (
+                    <h1 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tight text-white leading-[1.15]">
+                      {banner.title}
+                    </h1>
+                  ) : (
+                    <h2 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tight text-white leading-[1.15]">
+                      {banner.title}
+                    </h2>
+                  )}
 
                   <p className="text-lg md:text-xl text-slate-200 font-light leading-relaxed max-w-2xl">
                     {banner.subtitle}
