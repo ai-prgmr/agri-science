@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/logo-amba.png",
+        url: "/logo-amba-bg.png",
         width: 1200,
         height: 630,
         alt: "Amba Plastolite - HDPE Bottle & Jar Manufacturer Indore",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Amba Plastolite | HDPE Bottle & Jar Manufacturer in Indore",
     description: "Leading manufacturer of premium chemical-resistant HDPE bottles and agro jars in Indore, India. Specializing in Agro-chemical & Pesticide packaging since 2011.",
-    images: ["/logo-amba.png"],
+    images: ["/logo-amba-bg.png"],
   },
   other: {
     "geo.region": "IN-MP",
@@ -54,8 +54,8 @@ const jsonLdSchema = {
   "name": "Amba Plastolite",
   "alternateName": "Amba Plastolite Indore",
   "description": "Amba Plastolite is a leading manufacturer of chemical-resistant HDPE bottles, agro jars & PET containers in Indore, India. Specializing in Agro-chemical & Pesticide packaging since 2011.",
-  "image": "https://www.ambaplastolite.com/logo-amba.png",
-  "logo": "https://www.ambaplastolite.com/logo-amba.png",
+  "image": "https://www.ambaplastolite.com/logo-amba-bg.png",
+  "logo": "https://www.ambaplastolite.com/logo-amba-bg.png",
   "@id": "https://www.ambaplastolite.com/#organization",
   "url": "https://www.ambaplastolite.com",
   "telephone": "+919826068066",
