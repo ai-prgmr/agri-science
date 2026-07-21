@@ -24,7 +24,7 @@ const aboutJsonLd = {
     "@context": "https://schema.org",
     "@type": "AboutPage",
     "name": "About Amba Plastolite",
-    "url": "https://www.ambaplastolite.com/about",
+    "url": "https://ambaplastolite.com/about",
     "mainEntity": {
         "@type": "Organization",
         "name": "Amba Plastolite",
@@ -45,13 +45,13 @@ const breadcrumbJsonLd = {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://www.ambaplastolite.com"
+            "item": "https://ambaplastolite.com"
         },
         {
             "@type": "ListItem",
             "position": 2,
             "name": "About Us",
-            "item": "https://www.ambaplastolite.com/about"
+            "item": "https://ambaplastolite.com/about"
         }
     ]
 };

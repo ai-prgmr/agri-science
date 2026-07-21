@@ -75,7 +75,7 @@ const breadcrumbJsonLd = {
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://www.ambaplastolite.com"
+      "item": "https://ambaplastolite.com"
     }
   ]
 };
@@ -84,7 +84,7 @@ const websiteJsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "Amba Plastolite",
-  "url": "https://www.ambaplastolite.com"
+  "url": "https://ambaplastolite.com"
 };
 
 export default function Home() {

@@ -26,7 +26,7 @@ const productListJsonLd = {
             "@type": "Product",
             "name": product.name,
             "description": product.description,
-            "image": `https://www.ambaplastolite.com${product.imageUrl}`,
+            "image": `https://ambaplastolite.com${product.imageUrl}`,
             "category": product.category,
             "brand": {
                 "@type": "Brand",
@@ -54,13 +54,13 @@ const breadcrumbJsonLd = {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://www.ambaplastolite.com"
+            "item": "https://ambaplastolite.com"
         },
         {
             "@type": "ListItem",
             "position": 2,
             "name": "Products Catalog",
-            "item": "https://www.ambaplastolite.com/products"
+            "item": "https://ambaplastolite.com/products"
         }
     ]
 };

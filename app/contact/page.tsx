@@ -16,7 +16,7 @@ const contactJsonLd = {
     "@context": "https://schema.org",
     "@type": "ContactPage",
     "name": "Contact Amba Plastolite",
-    "url": "https://www.ambaplastolite.com/contact",
+    "url": "https://ambaplastolite.com/contact",
     "mainEntity": {
         "@type": "Organization",
         "name": "Amba Plastolite",
@@ -41,13 +41,13 @@ const breadcrumbJsonLd = {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://www.ambaplastolite.com"
+            "item": "https://ambaplastolite.com"
         },
         {
             "@type": "ListItem",
             "position": 2,
             "name": "Contact Us",
-            "item": "https://www.ambaplastolite.com/contact"
+            "item": "https://ambaplastolite.com/contact"
         }
     ]
 };
