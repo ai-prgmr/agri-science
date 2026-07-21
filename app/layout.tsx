@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.ambaplastolite.com"),
   title: "Amba Plastolite | HDPE Bottle & Jar Manufacturer in Indore",
-  description: "Amba Plastolite is a leading manufacturer of premium chemical-resistant HDPE bottles, agro jars, and PET containers in Indore, India. Specializing in Agro-chemical & Pesticide packaging since 2011.",
+  description: "Amba Plastolite is a leading manufacturer of chemical-resistant HDPE bottles, agro jars & PET containers in Indore, India. Premium packaging since 2011.",
   keywords: ["HDPE bottle manufacturer Indore", "agro chemical bottles", "pesticide packaging India", "HDPE jars manufacturer", "plastic bottle manufacturer Palda", "co-extrusion barrier bottles", "fluorinated HDPE bottles"],
   authors: [{ name: "Amba Plastolite" }],
   icons: {
@@ -50,13 +50,18 @@ export const metadata: Metadata = {
 
 const jsonLdSchema = {
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
+  "@type": ["LocalBusiness", "Manufacturer", "Organization"],
   "name": "Amba Plastolite",
+  "alternateName": "Amba Plastolite Indore",
+  "description": "Amba Plastolite is a leading manufacturer of chemical-resistant HDPE bottles, agro jars & PET containers in Indore, India. Specializing in Agro-chemical & Pesticide packaging since 2011.",
   "image": "https://www.ambaplastolite.com/logo-amba.png",
+  "logo": "https://www.ambaplastolite.com/logo-amba.png",
   "@id": "https://www.ambaplastolite.com/#organization",
   "url": "https://www.ambaplastolite.com",
   "telephone": "+919826068066",
   "email": "ambaplasto@gmail.com",
+  "priceRange": "$$",
+  "foundingDate": "2011",
   "address": [
     {
       "@type": "PostalAddress",
@@ -64,7 +69,7 @@ const jsonLdSchema = {
       "addressRegion": "Madhya Pradesh",
       "postalCode": "452001",
       "addressCountry": "IN",
-      "streetAddress": "71, Anand Nagar, 2nd Floor"
+      "streetAddress": "71, Anand Nagar, 2nd Floor, Behind Sapna-Sangeeta Talkies"
     },
     {
       "@type": "PostalAddress",
@@ -72,7 +77,7 @@ const jsonLdSchema = {
       "addressRegion": "Madhya Pradesh",
       "postalCode": "452001",
       "addressCountry": "IN",
-      "streetAddress": "128, Baradana Mandi, Palda"
+      "streetAddress": "128, Baradana Mandi, Palda Area"
     }
   ],
   "geo": {
@@ -92,7 +97,10 @@ const jsonLdSchema = {
     ],
     "opens": "09:00",
     "closes": "19:00"
-  }
+  },
+  "sameAs": [
+    "https://www.ambaplastolite.com"
+  ]
 };
 
 export default function RootLayout({

@@ -21,11 +21,70 @@ import { HeroCarousel } from "@/components/home/hero-carousel";
 import { containers } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Amba Plastolite | Premium HDPE Bottle & Jar Manufacturer Indore",
-  description: "Amba Plastolite is a leading manufacturer of premium chemical-resistant HDPE agro bottles, plastic jars, and jerry cans in Indore, India. 15+ years of Agro & Pesticides mastery.",
+  title: "Amba Plastolite | HDPE Bottle & Jar Manufacturer in Indore",
+  description: "Leading manufacturer of premium chemical-resistant HDPE agro bottles, plastic jars, and jerry cans in Indore, India. 15+ years of packaging mastery.",
   alternates: {
     canonical: "/",
   },
+};
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What makes Amba Plastolite HDPE bottles safe for pesticides and agrochemicals?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our containers are manufactured using 100% virgin high-density polyethylene (HDPE) with precision wall thickness control and optional fluorination or co-extruded barrier layers. This prevents paneling, container collapse, and chemical permeation, making them completely secure for active, volatile, and hazardous crop-protection chemicals."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer custom mold design and branding for bottles and jars?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We have an in-house design and engineering team that creates custom precision molds tailored to your specific container capacity (from 50ml up to 5 Liters), custom branding, logo embossing, and specialized cap/neck configurations to ensure safe, spill-free pouring."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does Amba Plastolite handle high-volume seasonal spikes in packaging demand?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We operate fully automatic, high-capacity extrusion blow molding lines running in 24/7 cycles. This allows us to handle large-scale, abrupt seasonal demand spikes (common in the agriculture sector before monsoon cycles) and maintain an uninterrupted, agile supply."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where are your office and manufacturing unit located?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our state-of-the-art manufacturing unit is situated at 128, Baradana Mandi, Palda Industrial Area, Indore, Madhya Pradesh (452001). Our corporate office is located at 71, Anand Nagar, Indore. We provide reliable shipping and logistics across India."
+      }
+    }
+  ]
+};
+
+const breadcrumbJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.ambaplastolite.com"
+    }
+  ]
+};
+
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Amba Plastolite",
+  "url": "https://www.ambaplastolite.com"
 };
 
 export default function Home() {
@@ -56,6 +115,18 @@ export default function Home() {
 
   return (
     <div className="min-h-screen flex flex-col bg-slate-50">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+      />
 
       <main className="flex-1">
 

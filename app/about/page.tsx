@@ -20,9 +20,53 @@ export const metadata: Metadata = {
     },
 };
 
+const aboutJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "About Amba Plastolite",
+    "url": "https://www.ambaplastolite.com/about",
+    "mainEntity": {
+        "@type": "Organization",
+        "name": "Amba Plastolite",
+        "foundingDate": "2011",
+        "founders": [
+            { "@type": "Person", "name": "Sandeep Patidar" },
+            { "@type": "Person", "name": "Sanjay Patidar" }
+        ],
+        "description": "Leading manufacturer of chemical-resistant HDPE bottles and agro jars in Indore, India since 2011."
+    }
+};
+
+const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.ambaplastolite.com"
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "About Us",
+            "item": "https://www.ambaplastolite.com/about"
+        }
+    ]
+};
+
 export default function AboutPage() {
     return (
         <div className="min-h-screen flex flex-col bg-slate-50">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutJsonLd) }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+            />
 
             {/* Hero Section */}
             <section className="bg-blue-900 text-white py-20 md:py-32">

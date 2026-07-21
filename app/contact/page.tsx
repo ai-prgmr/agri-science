@@ -11,9 +11,57 @@ export const metadata: Metadata = {
     },
 };
 
+const contactJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Contact Amba Plastolite",
+    "url": "https://www.ambaplastolite.com/contact",
+    "mainEntity": {
+        "@type": "Organization",
+        "name": "Amba Plastolite",
+        "telephone": "+919826068066",
+        "email": "ambaplasto@gmail.com",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "71, Anand Nagar, 2nd Floor, Behind Sapna-Sangeeta Talkies",
+            "addressLocality": "Indore",
+            "addressRegion": "Madhya Pradesh",
+            "postalCode": "452001",
+            "addressCountry": "IN"
+        }
+    }
+};
+
+const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.ambaplastolite.com"
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Contact Us",
+            "item": "https://www.ambaplastolite.com/contact"
+        }
+    ]
+};
+
 export default function ContactPage() {
     return (
         <div className="min-h-screen flex flex-col bg-slate-50">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(contactJsonLd) }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+            />
 
             <div className="container mx-auto py-12 md:py-20">
 
@@ -109,7 +157,7 @@ export default function ContactPage() {
                             <MapPin className="h-5 w-5" />
                             <span>Office Location</span>
                         </div>
-                        <div className="h-[350px] w-full bg-slate-200 rounded-xl overflow-hidden shadow-sm border border-slate-200 relative">
+                        <div className="h-87 w-full bg-slate-200 rounded-xl overflow-hidden shadow-sm border border-slate-200 relative">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.597556736785!2d75.8647!3d22.7056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDQyJzIwLjIiTiA3NcKwNTEnNTIuOSJF!5e0!3m2!1sen!2sin!4v1631234567890!5m2!1sen!2sin"
                                 width="100%"
