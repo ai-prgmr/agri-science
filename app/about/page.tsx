@@ -224,7 +224,7 @@ export default function AboutPage() {
                         <div className="group relative overflow-hidden rounded-2xl bg-slate-100">
                             <div className="aspect-4/3 bg-slate-200 relative overflow-hidden">
                                 <Image
-                                    src="/agri-science/sandeep-patidar.jpg"
+                                    src="/agri-science/sandeep-patidar-prof.png"
                                     width={500}
                                     height={375}
                                     className="object-cover"
@@ -246,7 +246,7 @@ export default function AboutPage() {
                         <div className="group relative overflow-hidden rounded-2xl bg-slate-100">
                             <div className="aspect-4/3 bg-slate-200 relative overflow-hidden">
                                 <Image
-                                    src="/agri-science/sanjay-patidar.jpg"
+                                    src="/agri-science/sanjay-patidar-prof.png"
                                     width={500}
                                     height={375}
                                     className="object-cover"

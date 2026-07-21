@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { Card, CardContent } from "@/components/ui/card";
 import { MapPin, Phone, Mail, Clock, Building2 } from "lucide-react";
+import SecureContactForm from "@/components/contact/secure-contact-form";
 
 export const metadata: Metadata = {
     title: "Contact Amba Plastolite | Corporate Office & Factory Indore",
@@ -63,7 +64,7 @@ export default function ContactPage() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
             />
 
-            <div className="container mx-auto py-12 md:py-20">
+            <div className="container mx-auto py-12 md:py-20 px-4 md:px-6">
 
                 {/* Header Section */}
                 <div className="text-center max-w-3xl mx-auto mb-16">
@@ -71,80 +72,93 @@ export default function ContactPage() {
                         Get in Touch
                     </h1>
                     <p className="text-lg text-slate-600">
-                        Visit our corporate office for consultations and business queries.
+                        Visit our corporate office or send us an online message for quotes and business queries.
                     </p>
                 </div>
 
-                {/* Contact Cards Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+                {/* Side-by-Side (Desktop) / Top-to-Bottom (Mobile/Tablet) Grid Layout */}
+                <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-16 items-start">
 
-                    {/* Address Card */}
-                    <Card className="text-center hover:shadow-md transition-shadow">
-                        <CardContent className="pt-6 flex flex-col items-center gap-4">
-                            <div className="h-12 w-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-900">
-                                <MapPin className="h-6 w-6" />
-                            </div>
-                            <div>
-                                <h3 className="font-semibold text-lg text-slate-900 mb-2">Corporate Office</h3>
-                                <p className="text-slate-600 text-sm leading-relaxed">
-                                    71, Anand Nagar, 2nd Floor,<br />
-                                    Behind Sapna-Sangeeta Talkies,<br />
-                                    Indore (M.P) - 452001
-                                </p>
-                            </div>
-                        </CardContent>
-                    </Card>
+                    {/* 4 Contact Cards Grid (Top on Mobile/Tablet, Left Side on Desktop) */}
+                    <div className="lg:col-span-5 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        
+                        {/* Address Card */}
+                        <Card className="text-center hover:shadow-md transition-shadow">
+                            <CardContent className="pt-6 flex flex-col items-center gap-3">
+                                <div className="h-10 w-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-900">
+                                    <MapPin className="h-5 w-5" />
+                                </div>
+                                <div>
+                                    <h3 className="font-semibold text-base text-slate-900 mb-1">Corporate Office</h3>
+                                    <p className="text-slate-600 text-xs leading-relaxed">
+                                        71, Anand Nagar, 2nd Floor,<br />
+                                        Behind Sapna-Sangeeta Talkies,<br />
+                                        Indore (M.P) - 452001
+                                    </p>
+                                </div>
+                            </CardContent>
+                        </Card>
 
-                    {/* Phone Card */}
-                    <Card className="text-center hover:shadow-md transition-shadow">
-                        <CardContent className="pt-6 flex flex-col items-center gap-4">
-                            <div className="h-12 w-12 rounded-full bg-green-100 flex items-center justify-center text-green-700">
-                                <Phone className="h-6 w-6" />
-                            </div>
-                            <div>
-                                <h3 className="font-semibold text-lg text-slate-900 mb-2">Call Us</h3>
-                                <p className="text-slate-600 text-sm mb-2">Mon-Sat from 9am to 7pm</p>
-                                <a href="tel:+919826068066" className="text-blue-900 font-bold hover:underline">
-                                    +91 98260 68066
-                                </a>
-                            </div>
-                        </CardContent>
-                    </Card>
+                        {/* Phone Card */}
+                        <Card className="text-center hover:shadow-md transition-shadow">
+                            <CardContent className="pt-6 flex flex-col items-center gap-3">
+                                <div className="h-10 w-10 rounded-full bg-green-100 flex items-center justify-center text-green-700">
+                                    <Phone className="h-5 w-5" />
+                                </div>
+                                <div>
+                                    <h3 className="font-semibold text-base text-slate-900 mb-1">Call Us</h3>
+                                    <p className="text-slate-600 text-xs mb-1">Mon-Sat from 9am to 7pm</p>
+                                    <a href="tel:+919826068066" className="text-blue-900 font-bold text-xs hover:underline">
+                                        +91 98260 68066
+                                    </a>
+                                </div>
+                            </CardContent>
+                        </Card>
 
-                    {/* Email Card */}
-                    <Card className="text-center hover:shadow-md transition-shadow">
-                        <CardContent className="pt-6 flex flex-col items-center gap-4">
-                            <div className="h-12 w-12 rounded-full bg-orange-100 flex items-center justify-center text-orange-700">
-                                <Mail className="h-6 w-6" />
-                            </div>
-                            <div>
-                                <h3 className="font-semibold text-lg text-slate-900 mb-2">Email Us</h3>
-                                <p className="text-slate-600 text-sm mb-2">For quotes & catalog</p>
-                                <a href="mailto:ambaplasto@gmail.com" className="text-blue-900 font-bold hover:underline">
-                                    ambaplasto@gmail.com
-                                </a>
-                            </div>
-                        </CardContent>
-                    </Card>
+                        {/* Email Card */}
+                        <Card className="text-center hover:shadow-md transition-shadow">
+                            <CardContent className="pt-6 flex flex-col items-center gap-3">
+                                <div className="h-10 w-10 rounded-full bg-orange-100 flex items-center justify-center text-orange-700">
+                                    <Mail className="h-5 w-5" />
+                                </div>
+                                <div>
+                                    <h3 className="font-semibold text-base text-slate-900 mb-1">Email Us</h3>
+                                    <p className="text-slate-600 text-xs mb-1">For quotes & catalog</p>
+                                    <a href="mailto:ambaplasto@gmail.com" className="text-blue-900 font-bold text-xs hover:underline break-all">
+                                        ambaplasto@gmail.com
+                                    </a>
+                                </div>
+                            </CardContent>
+                        </Card>
 
-                    {/* Factory Address Card */}
-                    <Card className="text-center hover:shadow-md transition-shadow">
-                        <CardContent className="pt-6 flex flex-col items-center gap-4">
-                            <div className="h-12 w-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-900">
-                                <Building2 className="h-6 w-6" />
-                            </div>
-                            <div>
-                                <h3 className="font-semibold text-lg text-slate-900 mb-2">Manufacturing Unit</h3>
-                                <p className="text-slate-600 text-sm leading-relaxed">
-                                    128 Bardana Mandi<br />
-                                    Palda, Industrial Area<br />
-                                    Indore (M.P) - 452001
-                                </p>
-                                <p className="text-red-800 font-semibold text-xs">No visitors please</p>
-                            </div>
-                        </CardContent>
-                    </Card>
+                        {/* Factory Address Card */}
+                        <Card className="text-center hover:shadow-md transition-shadow">
+                            <CardContent className="pt-6 flex flex-col items-center gap-3">
+                                <div className="h-10 w-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-900">
+                                    <Building2 className="h-5 w-5" />
+                                </div>
+                                <div>
+                                    <h3 className="font-semibold text-base text-slate-900 mb-1">Manufacturing Unit</h3>
+                                    <p className="text-slate-600 text-xs leading-relaxed">
+                                        128 Bardana Mandi<br />
+                                        Palda Industrial Area<br />
+                                        Indore (M.P) - 452001
+                                    </p>
+                                    <p className="text-red-800 font-semibold text-[10px] mt-1">No visitors please</p>
+                                </div>
+                            </CardContent>
+                        </Card>
 
+                    </div>
+
+                    {/* Contact Form Container (Below on Mobile/Tablet, Right Side on Desktop) */}
+                    <div className="lg:col-span-7 bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 shadow-sm">
+                        <h2 className="text-2xl font-bold text-slate-900 mb-2">Send us a Message</h2>
+                        <p className="text-slate-600 text-sm mb-6">
+                            Have questions about bottle capacities, custom molds, or bulk quotes? Send your message directly to our team.
+                        </p>
+                        <SecureContactForm />
+                    </div>
 
                 </div>
 

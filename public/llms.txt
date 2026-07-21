@@ -6,7 +6,7 @@
 - [Home Page](https://www.ambaplastolite.com): Overview of manufacturing experience (15+ years), virgin HDPE commitment, 24/7 production cycle, client testimonials, and key advantages.
 - [Product Catalog](https://www.ambaplastolite.com/products): Complete range of HDPE bottles, agro jars, boxes, and PET containers. Includes filterable catalog by category and target industry.
 - [About Us](https://www.ambaplastolite.com/about): Company history, mission, quality control processes, and team profiles of directors Sandeep Patidar and Sanjay Patidar.
-- [Contact Info](https://www.ambaplastolite.com/contact): Corporate Office address in Anand Nagar, Indore, telephone, email, and Google Map coordinates.
+- [Contact Info](https://www.ambaplastolite.com/contact): Corporate Office address in Anand Nagar, Indore, manufacturing unit in Palda, telephone (+91 98260 68066), email (ambaplasto@gmail.com), and location details.
 
 ## Full Dataset
 - [llms-full.txt](https://www.ambaplastolite.com/llms-full.txt): Complete textual representation of all website sections and details of all 45+ products for deep context ingestion.
@@ -15,4 +15,4 @@
 - **Materials:** 100% Virgin HDPE (High-Density Polyethylene) and PET (Polyethylene Terephthalate).
 - **Specializations:** Agro-chemical & Pesticide packaging, co-extrusion barrier bottles, fluorinated HDPE bottles, UV light protection (black HDPE), and custom mold design.
 - **Capacity Range:** Bottles and jars ranging from 100ml to 1L+, custom weights, and custom color variations.
-- **Service area:** Supplier to leading pesticide and chemical manufacturers across India.
+- **Service Area:** Supplier to leading pesticide and chemical manufacturers across India.
