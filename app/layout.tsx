@@ -14,9 +14,9 @@ export const metadata: Metadata = {
   keywords: ["HDPE bottle manufacturer Indore", "agro chemical bottles", "pesticide packaging India", "HDPE jars manufacturer", "plastic bottle manufacturer Palda", "co-extrusion barrier bottles", "fluorinated HDPE bottles"],
   authors: [{ name: "Amba Plastolite" }],
   icons: {
-    icon: "/agri-science/icon.png",
-    shortcut: "/agri-science/favicon.ico",
-    apple: "/agri-science/apple-touch-icon.png",
+    icon: "/icon.png",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
   },
   openGraph: {
     title: "Amba Plastolite | HDPE Bottle & Jar Manufacturer in Indore",

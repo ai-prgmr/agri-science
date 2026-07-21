@@ -18,7 +18,7 @@ export function Footer() {
                         <div className="flex items-center gap-2 text-white font-bold text-xl">
                             <Link href="/" className="flex items-center gap-2 font-bold text-xl text-blue-900">
                                 <Image
-                                    src="/agri-science/logo-amba-bg.png"
+                                    src="/logo-amba-bg.png"
                                     width={300}
                                     height={300}
                                     alt="Amba Plastolite"

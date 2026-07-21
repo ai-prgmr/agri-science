@@ -124,7 +124,7 @@ export default function AboutPage() {
                         <div className="relative">
                             <div className="aspect-video rounded-2xl bg-slate-100 overflow-hidden border border-slate-200 shadow-xl relative">
                                 <Image
-                                    src="/agri-science/banner-2.jpg"
+                                    src="/banner-2.jpg"
                                     fill
                                     className="object-cover"
                                     alt="Amba Plastolite Custom Mold Design & Factory"
@@ -224,7 +224,7 @@ export default function AboutPage() {
                         <div className="group relative overflow-hidden rounded-2xl bg-slate-100">
                             <div className="aspect-4/3 bg-slate-200 relative overflow-hidden">
                                 <Image
-                                    src="/agri-science/sandeep-patidar-prof.png"
+                                    src="/sandeep-patidar-prof.png"
                                     width={500}
                                     height={375}
                                     className="object-cover"
@@ -246,7 +246,7 @@ export default function AboutPage() {
                         <div className="group relative overflow-hidden rounded-2xl bg-slate-100">
                             <div className="aspect-4/3 bg-slate-200 relative overflow-hidden">
                                 <Image
-                                    src="/agri-science/sanjay-patidar-prof.png"
+                                    src="/sanjay-patidar-prof.png"
                                     width={500}
                                     height={375}
                                     className="object-cover"

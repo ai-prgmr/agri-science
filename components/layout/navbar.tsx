@@ -29,7 +29,7 @@ export function Navbar() {
                 <div className="flex items-center gap-2">
                     <Link href="/" className="flex items-center gap-2 font-bold text-xl text-blue-900">
                         <Image
-                            src="/agri-science/logo-amba-bg.png"
+                            src="/logo-amba-bg.png"
                             width={400}
                             height={400}
                             alt="Amba Plastolite"
@@ -82,7 +82,7 @@ export function Navbar() {
                             <div className="flex items-center gap-2 border-b pb-6">
                                 <Link href="/" onClick={() => setIsOpen(false)} className="flex items-center gap-2 font-bold text-xl text-blue-900">
                                     <Image
-                                        src="/agri-science/logo-amba-bg.png"
+                                        src="/logo-amba-bg.png"
                                         width={140}
                                         height={140}
                                         alt="Amba Plastolite"

@@ -46,7 +46,7 @@ export function HeroCarousel({ banners }: HeroCarouselProps) {
 
               {/* Background Image */}
               <Image
-                src={`/agri-science/banner-${banner.id}.jpg`}
+                src={`/banner-${banner.id}.jpg`}
                 alt={banner.title}
                 fill
                 className="object-cover opacity-45"
